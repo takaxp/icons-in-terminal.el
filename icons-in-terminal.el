@@ -223,7 +223,7 @@
     ("\\.tf\\(vars\\|state\\)?$" icons-in-terminal-fileicon "terraform"     :height 1.0 :face icons-in-terminal-purple-alt)
 
     ("\\.asm$"          icons-in-terminal-faicon "microchip"                :height 1.0 :face icons-in-terminal-blue)
-    ("\\.nasm$"         icons-in-terminal-faicon "nasm"                     :height 1.0 :face icons-in-terminal-blue)
+    ("\\.nasm$"         icons-in-terminal-fileicon "nasm"                   :height 1.0 :face icons-in-terminal-blue)
 
     ;; Verilog(-AMS) and SystemVerilog(-AMS)
     ("\\.v$"            icons-in-terminal-fileicon "verilog"               :height 1.0 :v-adjust -0.2 :face icons-in-terminal-red)
