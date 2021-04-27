@@ -223,6 +223,7 @@
     ("\\.tf\\(vars\\|state\\)?$" icons-in-terminal-fileicon "terraform"     :height 1.0 :face icons-in-terminal-purple-alt)
 
     ("\\.asm$"          icons-in-terminal-faicon "microchip"                :height 1.0 :face icons-in-terminal-blue)
+    ("\\.nasm$"         icons-in-terminal-faicon "nasm"                     :height 1.0 :face icons-in-terminal-blue)
 
     ;; Verilog(-AMS) and SystemVerilog(-AMS)
     ("\\.v$"            icons-in-terminal-fileicon "verilog"               :height 1.0 :v-adjust -0.2 :face icons-in-terminal-red)
@@ -426,7 +427,7 @@
   '(
     ("trash"            icons-in-terminal-faicon "trash-o"          :height 1.2 :v-adjust -0.1)
     ("dropbox"          icons-in-terminal-faicon "dropbox"          :height 1.0 :v-adjust -0.1)
-    ("google[ _-]drive" icons-in-terminal-fileicon "google-drive"   :height 1.3 :v-adjust -0.1)
+    ("google[ _-]drive" icons-in-terminal-fileicon "google-drive"   :height 1.1 :v-adjust -0.1)
     ("^atom$"           icons-in-terminal-fileicon "atom"           :height 1.2 :v-adjust -0.1)
     ("documents"        icons-in-terminal-faicon "book"             :height 1.0 :v-adjust -0.1)
     ("download"         icons-in-terminal-faicon "cloud-download"   :height 0.9 :v-adjust -0.2)
