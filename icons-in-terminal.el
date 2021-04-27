@@ -294,8 +294,8 @@
     ("\\.m$"            icons-in-terminal-fileicon "apple"                  :v-adjust 0.0 :height 1.0)
     ("\\.mm$"           icons-in-terminal-fileicon "apple"                  :v-adjust 0.0 :height 1.0)
 
-    ("\\.c\\(c\\|pp\\|xx\\)$"   icons-in-terminal-fileicon "cplusplus-line" :v-adjust -0.2 :face icons-in-terminal-blue)
-    ("\\.h\\(h\\|pp\\|xx\\)$"   icons-in-terminal-fileicon "cplusplus-line" :v-adjust -0.2 :face icons-in-terminal-purple)
+    ("\\.c\\(c\\|pp\\|xx\\)$"   icons-in-terminal-fileicon "cpp" :v-adjust -0.2 :face icons-in-terminal-blue)
+    ("\\.h\\(h\\|pp\\|xx\\)$"   icons-in-terminal-fileicon "cpp" :v-adjust -0.2 :face icons-in-terminal-purple)
 
     ("\\.csx?$"         icons-in-terminal-fileicon "csharp-line"            :face icons-in-terminal-dblue)
 
@@ -620,7 +620,7 @@
     (dart-mode                          icons-in-terminal-fileicon "dart"             :height 1.0  :face icons-in-terminal-blue)
     ;; (fsharp-mode                        icons-in-terminal-fileicon "fsharp"           :height 1.0  :face icons-in-terminal-blue)
     (asm-mode                           icons-in-terminal-fileicon "microchip"        :height 1.0  :face icons-in-terminal-blue)
-    (nasm-mode                          icons-in-terminal-fileicon "microchip"        :height 1.0  :face icons-in-terminal-blue)
+    (nasm-mode                          icons-in-terminal-fileicon "nasm"             :height 1.0  :face icons-in-terminal-blue)
     (tcl-mode                           icons-in-terminal-fileicon "tcl"              :height 1.0  :face icons-in-terminal-dred)
     (cuda-mode                          icons-in-terminal-fileicon "nvidia"           :face icons-in-terminal-green)
     ;; (glsl-mode                          icons-in-terminal-fileicon "vertex-shader"    :face icons-in-terminal-green)

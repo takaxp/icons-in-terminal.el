@@ -26,6 +26,7 @@
 (defconst icons-in-terminal-alist
   '((fileicon
      . (;; mfizz
+        ("cpp" . "\xedb8")
         ("git" . "\xedce")
         ("html5" . "\xede1")
         ("java" . "\xede4")
